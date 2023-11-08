@@ -59,7 +59,7 @@ function writeReview() {
 
         // Get the document for the current user.
         db.collection("reviews").add({
-            hikeDocID: hikeDocID,
+            hikeID: hikeID,
             userID: userID,
             title: hikeTitle,
             level: hikeLevel,

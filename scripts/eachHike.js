@@ -28,11 +28,11 @@ function saveHikeDocumentIDAndRedirect() {
     console.log(ID);
 
     localStorage.setItem('hikeID', ID);
-    // window.location.href= "review.html";
+    window.location.href = "review.html";
 }
 
 function populateReviews() {
-    // console.log("test");
+    console.log("test");
     let hikeCardTemplate = document.getElementById("reviewCardTemplate");
     let hikeCardGroup = document.getElementById("reviewCardGroup");
 
